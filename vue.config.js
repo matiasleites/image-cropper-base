@@ -4,7 +4,9 @@ module.exports = defineConfig({
     'vuetify'
   ],
   devServer: {
-    port: process.env.PORT || 5000, // Usa el puerto asignado por CodeSandbox o 8080 por defecto
-    host: '0.0.0.0', // Acepta conexiones desde cualquier dirección
+    port: process.env.PORT || 5000, 
+    host: '0.0.0.0', 
+    allowedHosts: 'all',
+    disableHostCheck: true, 
   },
 })
