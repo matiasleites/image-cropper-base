@@ -9,7 +9,7 @@
     "tasks": {
       "dev": {
         "name": "dev",
-        "command": "npm run build",
+        "command": "npm run start",
         "runAtStart": true,
         "preview": {
           "port": 5000
