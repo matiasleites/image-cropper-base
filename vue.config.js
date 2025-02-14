@@ -8,5 +8,4 @@ module.exports = defineConfig({
     host: '0.0.0.0', 
     allowedHosts: 'all',
   },
-  publicPath: '/'
 })
