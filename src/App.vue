@@ -3,7 +3,7 @@
     <v-main>
       <div class="d-flex flex-column">
         <div
-          style="max-width: 800px; border: 1px solid #d1d1d1"
+          style="max-width: 800px; border: 1px solid #d1d1d1; width:100%;"
           class="mx-auto mt-8 rounded"
         >
           <div style="min-height: 70px" class="d-flex px-4">
@@ -21,8 +21,6 @@
         </div>
 
         <div style="max-width: 800px; width: 100%" class="mx-auto mt-8">
-
-
           <v-text-field
             placeholder="Url Imagem"
             label="Url da imagem"
