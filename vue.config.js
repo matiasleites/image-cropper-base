@@ -7,7 +7,6 @@ module.exports = defineConfig({
     port: process.env.PORT || 5000, 
     host: '0.0.0.0', 
     allowedHosts: 'all',
-    public: '0.0.0.0',
   },
   publicPath: '/'
 })
