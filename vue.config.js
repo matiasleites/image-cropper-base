@@ -9,6 +9,5 @@ module.exports = defineConfig({
     allowedHosts: 'all',
     hot: true,
     https: true
-  },
-  publicPath: '/'
+  }
 })
